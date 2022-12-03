@@ -1,0 +1,44 @@
+.main-intro {
+  background: #A4C3B2;
+  background: linear-gradient(60deg,
+ #A4C3B2 50%,
+ #CCE3DE 25%,
+  #EAF4F4 100%,
+  #6B9080 0%);
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.main-intro div {
+    height: 60%;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.main-intro-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0.5em;
+}
+
+.main-intro-right {
+    text-align: center;
+}
+
+.main-intro h1 {
+    font-size: 6rem;
+}
+
+.main-intro p {
+    font-size: 2rem;
+}
+
+
+
